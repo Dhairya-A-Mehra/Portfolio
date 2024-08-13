@@ -1,4 +1,4 @@
-name: Deploy Static Site to GitHub Pages
+name: Deploy Static Site with GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -27,12 +27,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
+      - name: Copy files
+        run: |
+          mkdir -p public
+          cp -r HTML/* public/
 
-      # Upload only the index.html file
-      - name: Upload index.html to Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./index.html  # Upload the specific index.html file from the root directory
+          path: public
 
   # Deployment job
   deploy:
