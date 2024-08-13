@@ -36,7 +36,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./HTML          # Updated to point to the HTML directory
+          source: ./         # Updated to point to the HTML directory
           destination: ./_site    # Output directory for the built site
 
       - name: Upload artifact
