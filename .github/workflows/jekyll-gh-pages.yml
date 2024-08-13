@@ -31,7 +31,7 @@ jobs:
       - name: Copy files
         run: |
           mkdir -p public
-          cp -r HTML/* public/
+          cp -r ./* public/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
