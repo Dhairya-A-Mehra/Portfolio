@@ -28,11 +28,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # No need to build with Jekyll, simply copy the files
-      - name: Upload HTML and CSS to Pages
+      # Upload only the index.html file
+      - name: Upload index.html to Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./      # Upload all content from the root directory
+          path: ./index.html  # Upload the specific index.html file from the root directory
 
   # Deployment job
   deploy:
