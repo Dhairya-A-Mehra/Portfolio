@@ -28,15 +28,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      # Build Jekyll site using the HTML directory as the source
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./HTML
-          destination: ./_site
+          source: ./HTML          # Updated to point to the HTML directory
+          destination: ./_site    # Output directory for the built site
+
+      - name: Copy CSS files to site
+        run: cp -r ./CSS ./_site/CSS  # Copy the CSS directory to the output site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site           # Ensure that the correct build output is uploaded
 
   # Deployment job
   deploy:
