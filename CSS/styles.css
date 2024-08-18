@@ -5,6 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .mainbox {
@@ -21,6 +22,15 @@ body {
   box-sizing: border-box; /* Ensures padding is included in the width/height */
   transition: background 0.3s ease; /* Smooth transition for background */
   border-radius: 15px;
+  margin: 0;
+  justify-content: center;
+}
+.mainbox:hover {
+  box-shadow: goldenrod 0px 0px 500px 50px;
+  background: linear-gradient(180deg, black, #2e2e2e);
+  transition: 1s;
+  background-blend-mode: darken;
+  font-weight: bolder;
 }
 
 footer {
