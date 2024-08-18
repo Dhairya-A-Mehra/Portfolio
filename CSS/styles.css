@@ -24,6 +24,7 @@ body {
   border-radius: 15px;
   margin: 0;
   justify-content: center;
+  cursor: pointer;
 }
 .mainbox:hover {
   box-shadow: goldenrod 0px 0px 500px 50px;
@@ -40,4 +41,23 @@ footer {
   text-align: center;
   padding: 20px;
   position: absolute;
+}
+
+#backbtn {
+  display: flex;
+  background: #0f0f0f;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  top: 10px;
+  left: 20px;
+  position: fixed;
+}
+
+#backbtn:hover {
+  box-shadow: 0px 0px 10px 2px rgb(207, 16, 16);
+  transition: 1s ease;
 }
