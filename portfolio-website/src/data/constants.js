@@ -204,7 +204,7 @@ export const experiences = [
     role: "DevOps Lead ",
     company: "Google Developers Student Club",
     date: "Aug 2024 - Present",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    desc: "Conducted workshops on DevOps tools like Docker, Terraform, AWS, Jenkins, and Azure. Managed a team of 5 developers and 2 designers to build a full-stack web app using ReactJS, NodeJs, and PostgreSQL. ",
     skills: [
       "Docker",
       "Terraform",
@@ -222,7 +222,7 @@ export const experiences = [
     role: "DevOps Co-Lead",
     company: "Google Developers Student Club",
     date: "Sept 2023 - Aug 2024",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    desc: "• Conducted workshops on DevOps tools like Docker, Terraform, AWS, Jenkins, and Azure. Managed a team of 5 developers and 2 designers to build a full-stack web app using ReactJS, NodeJs, and PostgreSQL.",
     skills: [
       "Jenkins",
       "Docker",
@@ -238,7 +238,7 @@ export const experiences = [
     role: "Community Work Facilitator",
     company: "Akshar Paaul NGO",
     date: "August 2024 - Nov 2024",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "A full-stack report generation application that allows users to manage and view reports. The app is designed with React on the frontend, Node.js on the backend, and utilizes PostgreSQL for database management.",
     skills: [
       "ReactJS",
       "NodeJs",
