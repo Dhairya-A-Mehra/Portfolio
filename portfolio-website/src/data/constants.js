@@ -565,7 +565,7 @@ export const projects = [
     title: "SynKro",
     date: "Dec 2024 - Present",
     description:
-      "Engineered co-occurrence matrices and normalized over 500 medical symptoms from unstructured JSON data using advanced NLP techniques and regex, enabling accurate symptom detection and negation handling. Developed clustering models including K-Means (0.78 silhouette score) and hierarchical clustering (0.75 silhouette score) for effective symptom grouping, complemented by an LSTM-based intent classification model built with PyTorch. Deployed a CLI-based medical chatbot delivering dynamic, symptom-driven recommendations with integrated PCA and dendrogram visualizations to suggest appropriate specialists and validate cluster coherence.",
+      "Currently leading the planning and requirement analysis phase of SynKro, a collaborative platform designed to connect professionals and students for seamless project engagement. Aims to integrate project management tools with high-impact networking features to foster effective teamwork, real-time collaboration, and mentorship opportunities. Focused on building a scalable foundation to support knowledge exchange and cross-domain innovation.",
     tags: ["Next Js", "Tailwind CSS", "MongoDB", "Socket IO", "Gemini API", "JWT", "Docker", "AWS", "Typescript"],
     member: [
       {
