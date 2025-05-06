@@ -144,6 +144,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
       },
+      {
+        name: "PyTorch",
+        image:
+          "data:image/jpeg;base64,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",
+      },
     ],
   },
   {
@@ -445,13 +450,13 @@ export const projects = [
     member: [
       {
         name: "Kewal Nanavati",
-        img: "https://media.licdn.com/dms/image/v2/D4D03AQHNcKrQ1b8T3w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723041259116?e=1736380800&v=beta&t=KuDloBTLcjbkzMaf6hBsTs9PHDhE34tR-fM3llSuWts",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQHNcKrQ1b8T3w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723041259114?e=1752105600&v=beta&t=GbyYR2Q4QdUUqjYcdIgAx_yZ2iwwTcEKKWTP2QWOajg",
         linkedin: "https://www.linkedin.com/in/kewal-nanavati-aaa22b24a/",
         github: "https://github.com/kewalll",
       },
       {
         name: "Devvrat Saini",
-        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723296559070?e=1736380800&v=beta&t=fTV9M4pyKPl81Ow-r1HkvXc1K-9OAlDuPtQUIevMBnI",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
         linkedin: "https://www.linkedin.com/in/devvratsaini/",
         github: "https://github.com/devvratsaini",
       },
@@ -481,7 +486,7 @@ export const projects = [
     member: [
       {
         name: "Devvrat Saini",
-        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723296559070?e=1736380800&v=beta&t=fTV9M4pyKPl81Ow-r1HkvXc1K-9OAlDuPtQUIevMBnI",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
         linkedin: "https://www.linkedin.com/in/devvratsaini/",
         github: "https://github.com/devvratsaini",
       },
@@ -499,11 +504,59 @@ export const projects = [
     member: [
       {
         name: "Devvrat Saini",
-        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723296559070?e=1736380800&v=beta&t=fTV9M4pyKPl81Ow-r1HkvXc1K-9OAlDuPtQUIevMBnI",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
         linkedin: "https://www.linkedin.com/in/devvratsaini/",
         github: "https://github.com/devvratsaini",
       },
     ],
     github: "https://github.com/Dhairya-A-Mehra/MLC-Project-24",
+  },
+  {
+    id: 20,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&s",
+    title: "Construction Permits Analysis",
+    date: "April 2025",
+    description:
+      "Processed and analyzed over 150,000 Seattle building permit records from a government dataset, addressing data quality issues through imputation of missing values, outlier treatment, and categorical encoding to prepare for predictive modeling. Developed Random Forest and XGBoost classifiers achieving 77.45% and 78.15% accuracy respectively in predicting permit completion status, leveraging engineered features to uncover key process indicators. Integrated data visualization and a Power BI dashboard to highlight approval rates, processing delays, and geographic trends, empowering city planners with actionable insights to streamline permit workflows.",
+    tags: ["Python", "Scikit Learn", "Pandas", "Numpy", "Matplotlib", "Seaborn","Power BI"],
+    member: [
+      {
+        name: "Devvrat Saini",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
+        linkedin: "https://www.linkedin.com/in/devvratsaini/",
+        github: "https://github.com/devvratsaini",
+      },
+      {
+        name: "Kewal Nanavati",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQHNcKrQ1b8T3w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723041259114?e=1752105600&v=beta&t=GbyYR2Q4QdUUqjYcdIgAx_yZ2iwwTcEKKWTP2QWOajg",
+        linkedin: "https://www.linkedin.com/in/kewal-nanavati-aaa22b24a/",
+        github: "https://github.com/kewalll",
+      },
+      {
+        name: "Nikunj Maheshwari",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQEj8RvPZSu0GA/profile-displayphoto-shrink_400_400/B4DZYEWpBGHIAg-/0/1743829767310?e=1752105600&v=beta&t=X2VLpUGrQL-m8ViYM4GmrFyIBxkYbQ2_hoWxYLgTspg",
+        linkedin: "https://www.linkedin.com/in/nikunj-maheshwari1/",
+        github: "https://github.com/still-nikk",
+      },
+    ],
+    github: "https://github.com/Dhairya-A-Mehra/DSBI",
+  },
+  {
+    id: 21,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&s",
+    title: "Medical ChatBot",
+    date: "April 2025",
+    description:
+      "Engineered co-occurrence matrices and normalized over 500 medical symptoms from unstructured JSON data using advanced NLP techniques and regex, enabling accurate symptom detection and negation handling. Developed clustering models including K-Means (0.78 silhouette score) and hierarchical clustering (0.75 silhouette score) for effective symptom grouping, complemented by an LSTM-based intent classification model built with PyTorch. Deployed a CLI-based medical chatbot delivering dynamic, symptom-driven recommendations with integrated PCA and dendrogram visualizations to suggest appropriate specialists and validate cluster coherence.",
+    tags: ["Python", "Scikit Learn", "Pandas", "Matplotlib"],
+    member: [
+      {
+        name: "Devvrat Saini",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
+        linkedin: "https://www.linkedin.com/in/devvratsaini/",
+        github: "https://github.com/devvratsaini",
+      },
+    ],
+    github: "https://github.com/Dhairya-A-Mehra/Chatbot",
   },
 ];
