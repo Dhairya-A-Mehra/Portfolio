@@ -559,4 +559,34 @@ export const projects = [
     ],
     github: "https://github.com/Dhairya-A-Mehra/Chatbot",
   },
+  {
+    id: 22,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&s",
+    title: "SynKro",
+    date: "Dec 2024 - Present",
+    description:
+      "Engineered co-occurrence matrices and normalized over 500 medical symptoms from unstructured JSON data using advanced NLP techniques and regex, enabling accurate symptom detection and negation handling. Developed clustering models including K-Means (0.78 silhouette score) and hierarchical clustering (0.75 silhouette score) for effective symptom grouping, complemented by an LSTM-based intent classification model built with PyTorch. Deployed a CLI-based medical chatbot delivering dynamic, symptom-driven recommendations with integrated PCA and dendrogram visualizations to suggest appropriate specialists and validate cluster coherence.",
+    tags: ["Next Js", "Tailwind CSS", "MongoDB", "Socket IO", "Gemini API", "JWT", "Docker", "AWS", "Typescript"],
+    member: [
+      {
+        name: "Devvrat Saini",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQENiQ36F2kFXA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723296559048?e=1752105600&v=beta&t=oDS5uBET303CNVhRMRO04T7KDw4Vn-IZG-VqqXpsCKs",
+        linkedin: "https://www.linkedin.com/in/devvratsaini/",
+        github: "https://github.com/devvratsaini",
+      },
+      {
+        name: "Krish Panchal",
+        img: "https://avatars.githubusercontent.com/u/139237988?v=4",
+        linkedin: "https://www.linkedin.com/in/krish-panchal-444962282/",
+        github: "https://github.com/KrishPanchal17",
+      },
+      {
+        name: "Pranay Vasoya",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQGQTo1SIlyh7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723225128548?e=1752105600&v=beta&t=f3n8pHFZ4yySyDiwx0ofjrxWHCHvv1G-pOFCJgjd1GY",
+        linkedin: "https://www.linkedin.com/in/pranay-vasoya/",
+        github: "https://github.com/PranayVasoya",
+      },
+    ],
+    github: "https://github.com/PranayVasoya/SynKro",
+  },
 ];
